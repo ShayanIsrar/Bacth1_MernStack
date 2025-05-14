@@ -1,10 +1,13 @@
 import React from "react";
-import MapMethod from "./components/mapMethod";
+import Form from "./components/Form";
+// import MapMethod from "./components/mapMethod";
 
 const App = () => {
   return (
     <div>
-      <MapMethod />
+      {/* {Counter App and ColorPicker App is Task for you guys} */}
+      {/* <MapMethod /> */}
+      <Form />
     </div>
   );
 };
