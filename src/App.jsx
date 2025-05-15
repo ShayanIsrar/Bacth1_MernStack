@@ -1,5 +1,6 @@
 import React from "react";
-import Form from "./components/Form";
+import FetchingData from "./components/FetchingData";
+// import Form from "./components/Form";
 // import MapMethod from "./components/mapMethod";
 
 const App = () => {
@@ -7,7 +8,8 @@ const App = () => {
     <div>
       {/* {Counter App and ColorPicker App is Task for you guys} */}
       {/* <MapMethod /> */}
-      <Form />
+      {/* <Form /> */}
+      <FetchingData />
     </div>
   );
 };
