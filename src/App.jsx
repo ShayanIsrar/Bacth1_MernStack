@@ -1,5 +1,6 @@
 import React from "react";
-import FetchingData from "./components/FetchingData";
+import TodoList from "./components/TodoList";
+// import FetchingData from "./components/FetchingData";
 // import Form from "./components/Form";
 // import MapMethod from "./components/mapMethod";
 
@@ -9,7 +10,8 @@ const App = () => {
       {/* {Counter App and ColorPicker App is Task for you guys} */}
       {/* <MapMethod /> */}
       {/* <Form /> */}
-      <FetchingData />
+      {/* <FetchingData /> */}
+      <TodoList />
     </div>
   );
 };
